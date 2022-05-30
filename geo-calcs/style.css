@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+}
+
+.links {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+
+.links2 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+
+a:link,
+a:visited {
+  background-color: #a3c2eb;
+  color: black;
+  font-weight: bold;
+  padding: 7.5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.credits {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
