@@ -7,5 +7,5 @@ A website hosting a variaty of geometric calculators. I hope this helps any stud
 * Hypotenuse Calculator
 * Leg A/B Calculator
 ## Preview
-![preview](https://github.com/LukeLeary/Geometry-Calculators/blob/main/preview.png?raw=true)
+![preview](https://github.com/LukeLeary/Geometry-Calculators/blob/main/preview1.png?raw=true)
 
