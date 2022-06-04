@@ -29,8 +29,8 @@ h1 {
   width: 700px;
 }
 
-a:link,
-a:visited {
+.link,
+.link :visited {
   background-color: #a3c2eb;
   color: black;
   font-weight: bold;
@@ -42,7 +42,7 @@ a:visited {
   border-radius: 6px;
 }
 
-a:hover {
+link :hover {
   background-color: #88a2c4;
   /*box-shadow: 1px 1px 5px #88a2c4;*/
 }
