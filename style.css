@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.header {
+h1 {
   position: absolute;
   left: 50%;
   top: 10%;
@@ -40,6 +40,11 @@ a:visited {
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 6px;
+}
+
+a:hover {
+  background-color: #88a2c4;
+  /*box-shadow: 1px 1px 5px #88a2c4;*/
 }
 
 .credits {
