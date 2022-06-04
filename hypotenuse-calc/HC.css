@@ -21,6 +21,10 @@ a:visited {
   border-radius: 6px;
 }
 
+a:hover {
+  background-color: #88a2c4;
+}
+
 .home {
   position: relative;
   top: 595px;
