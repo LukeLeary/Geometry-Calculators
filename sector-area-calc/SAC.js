@@ -15,6 +15,7 @@ function setup() {
 function draw() {
   //some geometry
   let sectorarea = (inp2.value() / 360) * Math.PI * Math.pow(inp.value(), 2);
+  let sectorareaExact = (inp2.value() / 360) * Math.pow(inp.value(), 2);
 
   //body
   push();
@@ -30,10 +31,14 @@ function draw() {
   textStyle(BOLD);
   //text
   fill(0);
-  textSize(40);
-  text(sectorarea, 20, 125 - 40);
+   textSize(40);
+  text(sectorarea, 20, 125 - 70);
   textSize(20);
-  text("Sector Area", 20, 125 - 75);
+  text("Sector Area", 20, 125 - 105);
+  textSize(40);
+  text(Math.round(sectorareaExact * 100) / 100 + "π", 20, 125 - 15);
+  textSize(20);
+  text("Sector Area Exact", 20, 125 - 105);
   textSize(8);
   text("Radius", 20, 137);
   text("Central Angle", 100, 137);
