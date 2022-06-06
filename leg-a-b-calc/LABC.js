@@ -31,7 +31,7 @@ function draw() {
   //text
   fill(0);
   textSize(40);
-  text(legab, 20, 125 - 40);
+  text(Math.round(legab * 100) / 100, 20, 125 - 40);
   textSize(20);
   text("Leg A/B", 20, 125 - 75);
   textSize(8);
