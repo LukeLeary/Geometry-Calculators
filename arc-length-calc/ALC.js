@@ -15,6 +15,7 @@ function setup() {
 function draw() {
   //some geometry
   let arclength = 2 * Math.PI * inp.value() * (inp2.value() / 360);
+   let arclengthExact = 2 * inp.value() * (inp2.value() / 360);
 
   //body
   push();
