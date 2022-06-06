@@ -28,8 +28,8 @@ function draw() {
   //text
   fill(0);
   textSize(40);
-  text(individual, 20, 125 - 10);
-  text(total, 20, 50);
+  text(Math.round(individual * 100) / 100, 20, 125 - 10);
+  text(Math.round(total * 100) / 100, 20, 50);
   textSize(20);
   text("Individual", 20, 125 - 45);
   text("Total", 20, 50 - 35);
