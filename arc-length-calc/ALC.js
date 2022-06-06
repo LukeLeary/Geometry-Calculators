@@ -31,9 +31,13 @@ function draw() {
   //text
   fill(0);
   textSize(40);
-  text(arclength, 20, 125 - 40);
+  text(Math.round(arclength * 100) / 100, 20, 125 - 70);
   textSize(20);
-  text("Arc Length", 20, 125 - 75);
+  text("Arc Length", 20, 125 - 105);
+  textSize(40);
+  text(Math.round(arclengthExact * 100) / 100 + "π", 20, 125 - 15);
+  textSize(20);
+  text("Arc Length Exact", 20, 125 - 50);
   textSize(8);
   text("Radius", 20, 137);
   text("Central Angle", 100, 137);
